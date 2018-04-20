@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def yolo_list(request):
+    return render(request, 'yolo/yolo_list.html', {})
