@@ -2,3 +2,4 @@ django==1.11
 Pillow
 django-imagekit
 pilkit==2.0
+django-taggit==0.22.2
