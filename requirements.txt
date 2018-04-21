@@ -1,3 +1,4 @@
 django==1.11
+Pillow
 django-imagekit
 pilkit==2.0
