@@ -2,27 +2,27 @@ from django.shortcuts import render
 from django.views.generic import ListView
 from .models import Yolo
 
-from taggit.models import Tag
-
-
-class TagMixin(object):
-    def get_context_data(self, **kwargs):
-        context = super(TagMixin, self).get_context_data(**kwargs)
-        context['tags'] = Tag.objects.all()
-        return context
-
 
 def main_page(request):
-    yolos = Yolo.objects.all()
+    yolos = Yolo.objects.get_queryset().order_by('id')
     return render(request, 'yolo/main_page.html',
                   {'yolos': yolos})
 
 
-class TagIndexView(TagMixin, ListView):
-    template_name = 'yolo/index.html'
-    model = Yolo
-    paginate_by = '15'
-    context_object_name = 'yolos'
+def yolo_list(request):
+    qs = Yolo.objects.all()
+    q = request.GET.get('q', '')
+    if q:
+        qs = qs.filter(what__icontains=q)
+    return render(request, 'yolo/yolo_list.html',{
+        'yolo_list':qs,
+        'q':q,
+    })
 
-    def get_queryset(self):
-        return Yolo.objects.filter(tags__slug=self.kwargs.get('slug'))
+
+def tag_search(request, slug):
+    qs = Yolo.objects.filter(tag_set__name__icontains=slug)
+    return render(request, 'yolo/tag_search.html',{
+        'yolos' : qs,
+    })
+

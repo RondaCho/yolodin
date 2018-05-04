@@ -5,7 +5,7 @@ from django.forms import ValidationError
 from imagekit.models import ProcessedImageField
 from imagekit.processors import Thumbnail
 
-from taggit.managers import TaggableManager
+
 
 def lnglat_validator(value):
     if not re.match(r'^([+-]?\d+\.?\d*), ([+=]?\d+\.?\d*)$)', value):
@@ -13,12 +13,12 @@ def lnglat_validator(value):
 
 
 class Yolo(models.Model):
-    Image = ProcessedImageField(blank=True, upload_to='yolo/yolo/%Y/%m/%d',
+    image = ProcessedImageField(blank=True, upload_to='yolo/yolo/%Y/%m/%d',
                                 processors=[Thumbnail(400,400)],
                                 format='JPEG',
                                 options={'quality':70})
 
-    tags = TaggableManager()
+    tag_set = models.ManyToManyField('Tag', blank=True)
 
     what = models.CharField(max_length=100, help_text='What?')
     where = models.CharField(max_length = 50, blank=True, validators=[lnglat_validator],
@@ -29,6 +29,15 @@ class Yolo(models.Model):
 
     def __str__(self):
         return self.what
+
+    # get_absolute_url 구현하기! for yolo_detail!
+
+
+class Tag(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+
+    def __str__(self):
+        return self.name
 
 
 class Category(models.Model):

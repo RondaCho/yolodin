@@ -1,0 +1,72 @@
+{% extends "yolo/layout.html" %}
+
+{% block style %}
+    <style>
+
+    @media (min-width: 576px) { .card-columns {column-count:1;}}
+
+    @media (min-width: 768px) { .card-columns {column-count:2;}}
+
+    @media (min-width: 960px) { .card-columns {column-count:3;}}
+
+    @media (min-width: 1200px) { .card-columns {column-count:4;}}
+
+    @media (min-width: 1600px) { .card-columns {column-count:5;}}
+
+    @media (min-width: 1850px) { .card-columns {column-count:6;}}
+   </style>
+{% endblock %}
+
+{% block content %}
+    <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+<ul class="nav nav-pills nav-fill" style="margin-top:17px;">
+  <li class="nav-item">
+    <a class="nav-link active" href="{% url "yolo:yolo_list" %}">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Longer nav link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+<div class="container-fluid" style="margin-top:10px">
+    <div class="card-columns">
+        {% for yolo in yolo_list %}
+            {% if yolo.image %}
+                <div class="card" style="width:300px;">
+                  <img class="card-img-top" src="{{ yolo.image.url }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>{{ yolo.what }}</strong></h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            {% else %}
+                <div class="card " style="width:300px;">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>{{ yolo.what }}</strong></h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
