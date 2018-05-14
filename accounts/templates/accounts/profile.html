@@ -1,0 +1,7 @@
+{% extends "accounts/layout.html" %}
+
+{% block content %}
+
+    <img src="{{ user.socialaccount_set.all.first.get_avatar_url }}">
+
+{% endblock %}

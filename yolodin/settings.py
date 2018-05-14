@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'yolodin.pythonanywhere.com']
 
 
 # Application definition
-
+# 앱 등록 및 사용할 Provider 등록
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,9 +40,18 @@ INSTALLED_APPS = [
 
     'imagekit',
 
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.instagram',
+
     'accounts',
     'yolo',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -106,6 +115,18 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend', # 기본 인증 백엔드
+    'allauth.account.auth_backends.AuthenticationBackend', # 추가
+]
+
+# 디폴트 SITE의 id
+# 등록하지 않으면, 각 요청 시에 host 명의 site 인스턴스를 찾습니다.
+SITE_ID = 1
+
+#이메일 확인을 하지 않음.
+SOCIALACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
