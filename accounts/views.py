@@ -1,11 +1,11 @@
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.views import login as auth_login
 from django.shortcuts import redirect, render
 from allauth.socialaccount.models import SocialApp
 from allauth.socialaccount.templatetags.socialaccount import get_providers
-from .forms import LoginForm
+
 
 def signup(request):
     if request.method == 'POST':
@@ -35,6 +35,6 @@ def login(request):
         providers.append(provider)
 
     return auth_login(request,
-                      authentication_form=LoginForm,
+                      authentication_form=AuthenticationForm,
                       template_name='accounts/login_form.html',
                       extra_context={'providers': providers})
