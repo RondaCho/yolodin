@@ -1,0 +1,23 @@
+{% extends "yolo/layout.html" %}
+
+{% block title %}
+    {{ yolo.what }}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>{{ yolo.what }}</h2>
+
+                <hr/>
+
+                <h3>Comments</h3>
+
+                <hr/>
+                <a href="{% url "yolo:yolo_list" %}" class="btn btn-primary">글 목록</a>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

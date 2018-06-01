@@ -1,0 +1,13 @@
+{% extends "din/layout.html" %}
+
+{% block content %}
+
+        <p>{{ din.what }}</p>
+        <p>due date: {{ din.when }}</p>
+        <p>by: {{ din.who }}</p>
+        {% if din.what.image %}
+            <img src="{{ din.what.image.url }}">
+        {% endif %}
+        <p>detail: {{ din.note|linebreaks }}</p>
+
+{% endblock %}

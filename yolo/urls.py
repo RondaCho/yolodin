@@ -4,5 +4,6 @@ from . import views
 urlpatterns = [
     url(r'^$', views.main_page, name='main_page'),
     url(r'^yolo/$', views.yolo_list, name='yolo_list'),
-    url(r'^tag/(?P<slug>[-\w]+)/$', views.tag_search, name='tag_search'),
+    url(r'^yolo/(?P<id>\d+)/$', views.yolo_detail, name='yolo_detail'),
+    url(r'^yolo/new/$', views.yolo_new, name='yolo_new'),
 ]

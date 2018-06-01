@@ -1,7 +1,23 @@
 {% extends "layout.html" %}
 
+{% block body %}
 {% block content %}
+    {% load socialaccount %}
+    {% if user.is_authenticated %}
+    <div class="container">
+        {% for account in user.socialaccount_set.all %}
+            <h2 style="text-transform:capitalize;">{{ account.provider }} account data</h2>
+            <p><img width="50" height="50" src="{{ account.get_avatar_url }}" /></p>
+            <p>UID: <a href="{{account.extra_data.link }}">{{ account.uid }}</a></p>
+            <p>Username: {{ account.extra_data.name }}</p>
+            <p>First Name: {{ account.extra_data.first_name }}</p>
+            <p>Last Name: {{ account.extra_data.last_name }}</p>
+            <p>Language & Country: {{ account.extra_data.locale }}</p>
+            <p>Profile Link: <a style="text-transform:capitalize" href="{{ account.extra_data.link }}">Visit my {{ account.provider }} Profile</a></p>
+        {% endfor %}
+    {% endif %}
+    </div>
 
-    <img src="{{ user.socialaccount_set.all.first.get_avatar_url }}">
 
+{% endblock %}
 {% endblock %}

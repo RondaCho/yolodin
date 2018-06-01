@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.instagram',
 
     'accounts',
+    'din',
     'yolo',
 ]
 
