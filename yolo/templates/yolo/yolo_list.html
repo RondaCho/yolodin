@@ -1,4 +1,5 @@
 {% extends "yolo/layout.html" %}
+{% load static %}
 
 {% block style %}
     <style>
@@ -58,45 +59,58 @@
     </style>
 {% endblock %}
 
-{% block content %}
-
-    <a href="{% url "yolo:yolo_new" %}" class="btn btn-danger pull-right" style="margin-top:2rem;">Create New</a>
-
-<ul class="nav nav-pills nav-fill" style="margin-top:17px;">
-  <li class="nav-item">
-    <a class="nav-link active" href="{% url "yolo:yolo_list" %}">All</a>
-  </li>
-{% for category in category %}
-    <li class="nav-item">
-        <a class="nav-link">{{ category.name|capfirst }}</a>
-    </li>
-{% endfor %}
-</ul>
-    {% block yolo_list %}
-<div class="container-fluid" style="margin-top:10px">
-    <div class="card-columns">
-        {% for yolo in yolo_list %}
-                <div class="card" style="width:300px;">
-                {% if yolo.image %}
-                  <img class="card-img-top" src="{{ yolo.image.url }}" alt="Card image cap">
-                {% endif %}
-                  <div class="card-body">
-                    <h5 class="card-title" href="{% url "yolo:yolo_detail" yolo.id %}"><strong>{{ yolo.what }}</strong>
-                        {% for category in yolo.category_set.all %}
-                            <small><span class="badge badge-pill badge-warning">
-                                 {{ category }}
-                             </span></small>
-                       {% endfor %}</h5>
-                      <p class="card-text"><!--<small class="text-muted">Last updated 3 mins ago</small>-->
-                         <a href="{% url "din:din_new" yolo.id %}" class="btn btn-secondary pull-right" style="margin-bottom:1rem;">
-                           <i class="fa fa-heart" aria-hidden="true"> Yolodin! </i>
-                         </a>
-                      </p>
-                  </div>
-                </div>
-        {% endfor %}
+{% block nav_title %}
+      <ul id="nav_bar" style="float:left; font-size:30px;">
+          <li class="nav-links"><a href="{% url "yolo:main_page" %}">YOLODIN</a></li>
+      </ul>
+    <div class="form" style="float:right; margin-top:10px">
+      <form action="" method="get">
+        <label for="form-search"></label>
+        <input type="text" name="q" value="{{ q }}" style="width:10rem;" id="form-search" placeholder="Search for Your Life Goal">
+        <input type="submit" value="submit" class="btn btn-outline-primary">
+      </form>
     </div>
-</div>
+{% endblock %}
+
+{% block content_detail %}
+
+    {% block yolo_list %}
+        <div class="container-fluid" style="margin-top:10px">
+            <div class="card-columns">
+                <a href="{% url "yolo:yolo_new" %}">
+                    <div class="card" style="width:300px">
+                        <div class="card-body">
+                            <h5 class="card-title" href="{% url "yolo:yolo_new" %}"><strong>Create New Life Goal!</strong></h5>'
+                                 <a href="{% url "yolo:yolo_new" %}" class="btn btn-danger pull-right" style="margin-bottom:1rem;">
+                                   <i class="fa fa-heart" aria-hidden="true"> Create New </i>
+                                 </a>
+                        </div>
+                    </div>
+                </a>
+                {% for yolo in yolo_list %}
+                    <a href="{% url "yolo:yolo_detail" yolo.id %}">
+                    <div class="card" style="width:300px;">
+                        {% if yolo.image %}
+                          <img class="card-img-top" src="{{ yolo.image.url }}" alt="Card image cap">
+                        {% endif %}
+
+                          <div class="card-body">
+                            <h5 class="card-title" href="{% url "yolo:yolo_detail" yolo.id %}"><strong>{{ yolo.what }}</strong>
+                                {% for category in yolo.category_set.all %}
+                                    <small><span class="badge" style="background-color:#00a4d4; font-size:10px;">
+                                         {{ category }}
+                                     </span></small>
+                               {% endfor %}</h5>
+
+                              <p class="card-text"><small class="text-muted">{% if yolo.din_set.exists %}This yolo is pursued by <strong>{{ yolo.din_set.count }}</strong> people{% else %} Join First! {% endif %}</small>
+                                  <a href="{% url "din:din_new" yolo.id %}" class="btn btn-warning float-right" style="margin-bottom:10px;"><small>Join!</small></a>
+                              </p>
+                          </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
         {% endblock %}
 {% endblock %}
 {% block script %}

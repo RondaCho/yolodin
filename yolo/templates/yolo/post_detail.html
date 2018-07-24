@@ -1,0 +1,52 @@
+{% extends "yolo/layout.html" %}
+{% load staticfiles %}
+
+
+{% block style %}
+        <link rel="stylesheet" href="{% static "codemirror/lib/codemirror.css" %}" />
+        <link rel="stylesheet" href="{% static "highlightjs/styles/github.css" %}" />
+        <link rel="stylesheet" href="{% static "tui-editor/dist/tui-editor.css" %}" />
+        <link rel="stylesheet" href="{% static "tui-editor/dist/tui-editor-contents.css" %}" />
+{% endblock %}
+
+{% block content %}
+    <div class="container" style="alignment:center;">
+    <h1 style="margin-top:80px;"> {{ post.title }} </h1>
+    <p><small>post about</small> {{ post.what }} <small> post created at {{ post.created_at }}</small></p>
+    <hr/>
+
+        <div id="post_content_markdown" style="display: none;">{{ post.content }}</div>
+
+        <div id="post_content"></div>
+
+
+    <hr/>
+    {% for comment in comment %}
+        <p>{{ comment }}
+            <small>{% if comment.parent %} answered to "{{ comment.parent }}" answered by
+            {% else %} asked by
+            {% endif %}
+            {{ comment.author }}
+            </small>
+        </p>
+    {% endfor %}
+    </div>
+
+        <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="{% static "tui-code-snippet/dist/tui-code-snippet.js" %}"></script>
+        <script src="{% static "markdown-it/dist/markdown-it.js" %}"></script>
+        <script src="{% static "to-mark/dist/to-mark.js" %}"></script>
+        <script src="{% static "highlightjs/highlight.pack.js" %}"></script>
+        <script src="{% static "squire-rte/build/squire.js" %}"></script>
+
+        <script src="{% static "tui-editor/dist/tui-editor-Viewer-all.min.js" %}"></script>
+
+        <script>
+        var editor = $('#post_content').tuiEditor({
+            initialEditType: 'markdown',
+            initialValue: $('#post_content_markdown').html(),
+            height: 'auto'
+        });
+        </script>
+{% endblock %}
+

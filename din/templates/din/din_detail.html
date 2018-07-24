@@ -1,13 +1,90 @@
 {% extends "din/layout.html" %}
+{% load socialaccount %}
+
+{% block title %}
+    {{ din.who }}'s Din list
+{% endblock %}
 
 {% block content %}
 
-        <p>{{ din.what }}</p>
-        <p>due date: {{ din.when }}</p>
-        <p>by: {{ din.who }}</p>
-        {% if din.what.image %}
-            <img src="{{ din.what.image.url }}">
-        {% endif %}
-        <p>detail: {{ din.note|linebreaks }}</p>
-
+    <div class="container" style="margin-top:100px;">
+    <button type="button" class="btn btn-sm btn-outline-info"><a href="{% url "din:din" din.who %}"><<< View List</a></button>
+        <button type="button" class="btn btn-sm btn-outline-warning float-right"><a href="{% url "yolo:yolo_detail" din.what_id %}"><strong>Go to {{ din.what }} community</strong></a></button>
+    <hr>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="margin-top:10px;">
+                  {% if din.what.image %}
+                    <img class="card-img-top" src="{{ din.what.image.url }}" alt="Card image cap">
+                  {% endif %}
+                    <div class="card-body">
+                      <h4 class="card-text">{{ din.what }}</h4>
+                        <small class="text-muted">
+                              <strong>{{ din.when }}</strong>
+                          {% if din.who == request.user %}
+                                <button type="button" class="btn-xs btn-outline-info float-right"><a href="{% url "din:din_edit" din.what_id %}">Edit</a></button>
+                          {% endif %}
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <h3 style="text-align:center;">{{ din.who }}'s Din Diary
+                    {% if din.who == request.user %}
+                        <a class="btn btn-sm btn-outline-primary float-right" href="{% url "din:add_log_to_din" slug=request.user id=din.what_id %}"> + Add message</a>
+                    {% endif %}
+                </h3>
+            {% if din.who == request.user %}
+                {% if din.log_set.all.exists %}
+                    <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="text-align:center;">message</th>
+                            <th scope="col" style="text-align:center;"><small>created at</small></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for log in din.log_set.all %}
+                            <tr>
+                                <td style="text-align:center;">
+                                    <p style="margin-top:0; margin-bottom:0.2rem;">{{ log.message|urlize }}
+                                    <small>
+                                        {% if user == request.user %}
+                                            <button type="button" class="btn-xs btn-outline-danger"><a href="{% url 'din:log_remove' pk=log.id  %}">Remove</a></button>
+                                            <button type="button" class="btn-xs btn-outline-info"><a href="{% url 'din:log_change' pk=log.id  %}">Edit</a></button>
+                                        {% endif %}
+                                    </small>
+                                    </p>
+                                </td>
+                                <td style="text-align:center;">
+                                    <small>{{ log.created_at|date }}</small>
+                                </td>
+                            </tr>
+                    {% endfor %}
+                    </tbody>
+                    </table>
+                {% else %}
+                    <hr>
+                    <h4>You haven't wrote anything here. Write down your schedule, preparation stuffs, reference url or completion note here </h4>
+                {% endif %}
+            {% else %}
+                {{ din.who }} haven't created any posts regarding this goal yet.
+            {% endif %}
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Helpful Posts</h4>
+                {% if post.exists %}
+                    {% for post in post %}
+                        <li>{{ post }}</li>
+                    {% endfor %}
+                {% else %}
+                <p> No Post Exists. Be the First Contributor to help {{ din_object.count }} people</p>
+                {% endif %}
+            </div>
+        </div>
+        <hr>
+</div>
 {% endblock %}

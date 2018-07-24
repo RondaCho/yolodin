@@ -1,1 +1,16 @@
 {% extends "layout.html" %}
+
+{% block content %}
+<ul class="nav nav-pills nav-fill">
+  <li class="nav-item" style="margin-top:70px;">
+    <a class="nav-link {% if not slug %} active {% endif %}" href="{% url "yolo:yolo_list" %}"><strong>All</strong></a>
+  </li>
+{% for category in category %}
+  <li class="nav-item" style="margin-top:70px;">
+      <a href="{% url "yolo:yolo_list" category %}"class="nav-link {% if category.name == slug %}active{% endif %}">{{ category.name|capfirst }}</a>
+  </li>
+{% endfor %}
+</ul>
+    {% block content_detail %}
+    {% endblock %}
+{% endblock %}

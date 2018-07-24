@@ -6,28 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1. shrink-to-fit=no">
         <meta name="author" content="">
 
-        <title> You Only Live Once Do It Now</title>
+        <title>{% block title %} You Only Live Once Do It Now {% endblock %}</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/yeti/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/sketchy/bootstrap.min.css" rel="stylesheet">
         <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600italic,700italic,600,800,300,700,800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-    <!-- Google Fonts -->
 
-    <link rel="stylesheet" href="{% static "css/animate.css" %}">
-    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/style.css" %}">
-    <link rel="stylesheet" id="color-scheme" href="{% static "css/colors/gold.css" %}">
-
-    <!-- Favicon and Apple Icons -->
-    <link rel="icon" type="image/png" href="{% static "images/icons/favicon.png" %}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{% static "images/icons/faviconx57.png" %}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{% static "images/icons/faviconx72.png" %}">
+        <!-- Favicon and Apple Icons -->
+        <link rel="icon" type="image/png" href="{% static "images/icons/favicon.png" %}">
+        <link rel="apple-touch-icon" sizes="57x57" href="{% static "images/icons/faviconx57.png" %}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{% static "images/icons/faviconx72.png" %}">
 
     <!-- Modernizr -->
     <script src="{% static "js/modernizr.js" %}"></script>
@@ -37,78 +25,142 @@
 
     <!-- Queryloader -->
     <script src="{% static "js/queryloader2.min.js" %}"></script>
-            <style>
+     <style>
             /* CUSTOMIZE THE CAROUSEL
             -------------------------------------------------- */
-            .navbar {
-                height : 50px;
+            body {
+              margin-top: 0;
+              padding: 0;
+              font-family: 'Roboto', sans-serif;
             }
 
-            /* Carousel base class */
-            .carousel {
-                height : 50rem;
-              margin-bottom: 4rem;
-            }
-            /* Since positioning the image, we need to help out the caption */
-            .carousel-caption {
-              bottom: 4rem;
-              z-index: 10;
+            header {
+              width: 100%;
             }
 
-            /* Declare heights because of positioning of img element */
-            .carousel-item {
-              height: 50rem;
-              background-color: #777;
+            ul {
+              list-style: none;
             }
-            .carousel-item > img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                min-width: 100%;
-                height: 60rem;
+
+            a {
+                text-decoration: none;
             }
+
+
+         /* FOOTER */
+            footer  {
+              background: #fbfcff;
+              border-top: solid 2px #ffc0d2;
+              position: fixed;
+              bottom: 0;
+              padding-bottom: 0;
+              width: 100%;
+
+            }
+
+            footer ul li {
+              display: inline;
+              color: #666666;
+              font-size: 14px;
+              padding: 13px;
+            }
+
+            footer ul {
+              float: left;
+              padding: 1px;
+            }
+
+            footer ul a:hover {
+              text-decoration: none;
+            }
+
+            .footer-right {
+              float: right;
+            }
+
     </style>
 
-        {% block style %}
+    {% block style %}
+    {% endblock %}
 
-        {% endblock %}
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="{% url "yolo:main_page" %}">Yolodin</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="{% url "yolo:main_page" %}">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{% url "yolo:yolo_list" %}">YOLO list</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Din list</a>
-                    </li>
-                  </ul>
-                  {% if not user.is_authenticated %}
-                    <li><a href="{% url "account_signup" %}">SignUp</a></li>
-                    <li><a href="{% url "account_login" %}?next={{ request.path }}">LogIn</a></li>
-                  {% else %}
-                    <li><a href="{% url "account_logout" %}?next={{ request.path }}">LogOut</a></li>
-                  {% endif %}
+       <header>
+           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="{% url "yolo:main_page" %}"><h3>Yolodin</h3></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url "yolo:yolo_list" %}">Yolo Page <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url "yolo:principle" %}">Din Page </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+              {% if not user.is_authenticated %}
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="#">Signup</a>
+                  <a class="dropdown-item" href="#">Login</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-            </nav>
-        </header>
+              {% else %}
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 {{ request.user }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="{% url "din:din" request.user %}">My dream list</a>
+                  <a class="dropdown-item" href="#">Timeline</a>
+                  <a class="dropdown-item" href="{% url "profile" %}">Profile</a>
+                  <a class="dropdown-item" href="{% url "logout" %}">Logout</a>
+                </div>
+              {% endif %}
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <form action="" method="get">
+            <label for="form-search"></label>
+            <input type="text" name="q" value="{{ q }}" style="width:14rem; text-align:center;" id="form-search" placeholder="Search for Your Life Goal">
+            <input type="submit" value="submit" class="btn btn-outline-primary">
+          </form>
+        </form>
+      </div>
+    </nav>
+
+       </header>
         {% block content %}
         {% endblock %}
+
+       <!-- FOOTER -->
+        <footer>
+            <ul class="footer-left">
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <ul class="footer-right">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+        </footer>
+
     <!-- Bootstrap core JavaScript ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     {% block script %}
     {% endblock %}
+
     </body>
 
 </html>

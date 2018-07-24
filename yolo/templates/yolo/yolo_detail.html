@@ -1,23 +1,187 @@
 {% extends "yolo/layout.html" %}
+{% load static %}
+{% load socialaccount %}
+
+
 
 {% block title %}
     {{ yolo.what }}
 {% endblock %}
 
-{% block content %}
-    <div class="container">
+{% block nav_title %}
+  <ul id="nav_bar" style="float:left; font-size:30px;">
+      <li class="nav-links"><a href="{% url "yolo:main_page" %}">YOLODIN</a></li>
+  </ul>
+{% endblock %}
+
+{% block content_detail %}
+
+            <div class="container">
+                    <button type="button" class="btn btn-sm btn-outline-info"><a href="{% url "yolo:yolo_list" %}"><<< View List</a></button>
+                    <hr>
+                <div class="row">
+                    <div class="col-md-10 col-md-push-1">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="product-gallery-container">
+                                    <div class="product-top">
+                                        {% if yolo.image %}
+                                            <img id="product-zoom" src="{{ yolo.image.url }}" data-zoom-image="images/products/single/product1-big.jpg" alt="Product image big"/>
+                                        {% else %}
+                                            <img id="product-zoom" src="{% static "yolo/aurora.jpg" %}" data-zoom-image="{% static "yolo/aurora.jpg"%}" alt="Product image big"/>
+                                        {% endif %}
+                                    </div><!-- End .product-top -->
+                                </div><!-- End .product-gallery-container -->
+                            </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                <div class="product-details">
+                                    <h2 class="product-title">
+                                        {% for category in yolo_category %}
+                                            <a href="{% url "yolo:yolo_list" category %}" class="badge" style="background-color:#ffc0d2; font-size:10px; margin-bottom:5px; margin-left:5px;">{{ category }}  </a>
+                                        {% endfor %}
+                                         - {{ yolo.what }}
+                                    </h2>
+
+
+                                    <div class="product-action">
+                                        <a href="{% url "din:din_new" yolo.id %}" class="btn btn-dark min-width no-radius" title="Add to Wishlist"><i class="fa fa-heart"></i>
+                                            Join this goal
+                                        </a>
+
+                                    </div><!-- End .product-action -->
+
+                                    <div class="share-container">
+                                        <label class="input-desc">Share now:</label>
+                                        <div class="social-icons social-icons-bg social-icons-bg-hover social-icons-circle">
+                                            <a href="https://www.facebook.com/sharer.php?u=http://127.0.0.1:8000/yolo/gather/{{ yolo.id }}/" class="social-icon icon-facebook" title="Facebook">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                            <a href="https://twitter.com/home?status=It%27s%20my%20life%20goal%20that%20I%20want%20to%20share.%20Come%20join%20this%20goal%20in%20http%3A%2F%2Fyolodin.com%2Fyolo%2Fgather%2F{{ yolo.id }}%2F" class="social-icon icon-twitter" title="Twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="#" class="social-icon icon-instagram" title="Instagram">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                            <a href="https://plus.google.com/share?url=http://127.0.0.1:8000/yolo/gather/{{ yolo.id }}/" class="social-icon icon-google-plus" title="Google Plus">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </div><!-- End .social-icons -->
+                                    </div><!-- End .share-container -->
+
+                                </div><!-- End .product-details -->
+                            </div><!-- End .col-md-7 -->
+                        </div>
+
+
+
+                        <div class="product-tab-section">
+                            <div role="tabpanel">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab" style="margin-right:10px;"><i class="fa fa-user"></i>Thoughts</a></li>
+                                    <li role="presentation"><a href="#description" aria-controls="description" role="tab" data-toggle="tab" style="margin-right:10px;"><i class="fa fa-home"></i>Locations</a></li>
+                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-envelope"></i>Contributions</a></li>
+                                </ul>
+
+                                <!-- Tab Panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane" id="description">
+                                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eius officia, beatae recusandae nobis accusantium deserunt cum voluptate eum soluta, sapiente tempora amet neque reprehenderit labore, iste suscipit. Placeat, voluptates.</span><span>Ipsa eius quaerat amet dolorum doloribus cum hic cupiditate laboriosam sit rerum cumque, blanditiis, tempore esse, vero accusantium repellendus a libero repellat iusto aliquam natus velit corrupti incidunt. Quo, tenetur.</span></p>
+                                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, vero iure tempora dicta! Quidem iusto saepe, debitis dicta nisi eligendi nulla odit, quasi enim. Quasi voluptatibus, nobis laborum quaerat ipsum.</span></p>
+                                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae excepturi doloremque odit id possimus explicabo, nemo aliquid tenetur nisi mollitia aspernatur harum libero, eum aperiam voluptates minima. Architecto, eveniet.</span><span>Vitae, impedit aspernatur vel deleniti suscipit rem corporis dignissimos consequatur commodi sapiente, aliquid, reprehenderit architecto beatae. Numquam dolorum quod iusto, facere eaque accusamus dignissimos veritatis fugiat eum magni soluta rem.</span></p>
+                                    </div><!-- End .tab-pane -->
+                                    <div role="tabpanel" class="tab-pane active" id="reviews">
+                                       <table class="table table-sm">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">
+                                                  <small>User</small>
+                                              </th>
+                                                <th scope="col"><small>personal meanings</small></th>
+                                              <th scope="col"><small>Joined "{{ yolo }}"</small> @</th>
+                                                <th scope="col"><small>Diary Counts</small></th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                          {% for din in yolo.din_set.all %}
+                                              {% if din.range == 'o' %}
+                                            <tr>
+                                              <td>
+                                                  {% if din.who.is_authenticated %}
+                                                      {% for account in din.who.socialaccount_set.all %}
+                                                          <img width="30" height="30" src="{{ account.get_avatar_url }}" style=" margin-right:5px;border-radius:50%;"/>
+                                                      {% endfor %}
+                                                  {% endif %}
+                                                  {{ din.who }}
+                                              </td>
+                                              <td>
+                                                  {% for log in din.log_set.all.reverse %}
+                                                            {{ log|truncatechars:50 }}
+                                                      {{ "<!--" }}
+                                                  {%endfor%}
+                                                    {{ "-->" }}
+                                              </td>
+                                              <td>{{ din.created_at|date }}</td>
+                                                <td><a href="{% url "din:din_detail" din.who din.what_id %}">{{ din.log_set.count }}</a></td>
+                                            </tr>
+                                              {% else %}
+                                                  <tr>
+                                                    <td>
+                                                        Secret Mode
+                                                    </td>
+                                                    <td>
+                                                        Secret note
+                                                    </td>
+                                                    <td>
+                                                        {{ din.created_at|date }}
+                                                    </td>
+                                                    <td>{{ din.log_set.count }}</td>
+                                                  </tr>
+                                              {% endif %}
+                                          {% endfor %}
+                                          </tbody>
+                                        </table>
+                                    </div><!-- End .tab-pane -->
+                                    <div role="tabpanel" class="tab-pane" id="messages">
+                                        <p>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum tempore placeat assumenda magni consequuntur nulla facilis itaque labore? Ducimus quis vero velit reprehenderit inventore in fugit enim deserunt ex optio.</span>
+                                            <span>Unde quidem reiciendis cum atque culpa, ipsa blanditiis animi ducimus quaerat soluta, repudiandae quo natus commodi hic esse nam, dolores repellat. Suscipit minus hic laborum ipsum reiciendis cupiditate temporibus voluptates!</span>
+                                            <span>Ex officiis quam laudantium placeat illum. Sequi voluptate vero molestiae saepe vitae optio eum sit esse ipsam tempora, magnam eius veritatis quae ratione, praesentium consectetur cupiditate aspernatur. Accusantium, sit, modi?</span>
+                                        </p>
+                                        <p>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat reprehenderit omnis, consequatur magni eligendi, optio id qui ullam dignissimos, praesentium quam? At ea tenetur necessitatibus reiciendis veniam quam minima amet.</span>
+                                            <span>Modi sapiente error enim totam veritatis repudiandae nostrum, non aliquam, neque placeat laboriosam cum. Alias aperiam iste autem ipsa et nisi quos, earum corrupti quam nesciunt ratione pariatur nobis at!</span>
+                                            <span>Accusamus dolorum repellat, voluptate ipsum natus autem culpa sit error hic neque deserunt, at ipsa, assumenda nobis numquam reiciendis sunt ad sed id accusantium unde veritatis obcaecati vel. Impedit, at.</span>
+                                        </p>
+                                    </div><!-- End .tab-pane -->
+                                </div><!-- End .tab-content -->
+                            </div><!-- end role[tabpanel] -->
+                        </div><!-- End .product-tab-section -->
+            <hr>
         <div class="row">
-            <div class="col-sm-12">
-                <h2>{{ yolo.what }}</h2>
-
-                <hr/>
-
-                <h3>Comments</h3>
-
-                <hr/>
-                <a href="{% url "yolo:yolo_list" %}" class="btn btn-primary">글 목록</a>
-
+            <div class="col-lg-12">
+                <h4>Helpful Posts</h4>
+                {% if post.exists %}
+                    {% for post in post %}
+                        <a href="{% url "yolo:post_detail" post.id %}"><li>{{ post }}</li></a>
+                    {% endfor %}
+                {% else %}
+                <p> No Post Exists. Be the First Contributor to help {{ din_object.count }} people</p>
+                {% endif %}
             </div>
         </div>
-    </div>
 {% endblock %}
+
+
+
+             <div class="filter-color-container">
+                 <label class="input-desc">Color:</label>
+                 <div class="row">
+                     <a href="#" data-bgcolor="#eaeaea" class="filter-color-box"></a>
+                     <a href="#" data-bgcolor="#009688" class="filter-color-box"></a>
+                     <a href="#" data-bgcolor="#2196f3" class="filter-color-box"></a>
+                     <a href="#" data-bgcolor="#ffc107" class="filter-color-box"></a>
+                     <a href="#" data-bgcolor="#d4e157" class="filter-color-box"></a>
+                 </div><!-- End .row -->
+             </div><!-- End .filter-color-container -->

@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'imagekit',
+    'widget_tweaks',
+    #'django_summernote',
 
     'django.contrib.sites',
     'allauth',
@@ -79,6 +81,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.request',
             ],
         },
     },
@@ -149,6 +152,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'yolodin', 'static'),
+    os.path.join(BASE_DIR, 'bower_components'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
@@ -158,3 +162,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+GOOGLE_MAP_API_KEY = 'AIzaSyAhRE0XbL0o7Cp3AwfU2sQl3l8oXSrLn2E'

@@ -1,643 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/din/models.py" line="26" />
+    <bookmark url="file://$PROJECT_DIR$/din/templates/din/din_detail.html" line="21" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13dfbb54-dd7a-41f2-91be-27e59208880f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/din/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/din/templates/din/din_detail.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/din/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/YTPlayer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/bootstrap-datetimepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/bootstrap-datetimepicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/brown.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/brown2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/darkblue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/gold.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/green2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/lightblue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/purple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/salmon.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/seagreen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/colors/violetred.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/jquery.kwicks.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/jquery.selectbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/magnific-popup.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/mediaelementplayer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-aboutme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index10.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index11.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index25.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index26.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index27.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index28.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index32.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index33.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index34.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index5.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index6.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index7.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index8.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/revslider/revslider-index9.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/simple-line-icons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/skins/lightfonts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/vspacing.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/css/vspacing.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/Simple-Line-Icons.dev.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/Simple-Line-Icons.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/Simple-Line-Icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/Simple-Line-Icons.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/Simple-Line-Icons.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/revicons.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/revicons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/revicons.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/fonts/revicons.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/404bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/slide4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/slide5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/thumbs/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/thumbs/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/thumbs/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/thumbs/slide4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/aboutme/thumbs/slide5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/index33/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/index33/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/index33/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/index33/slide4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/index33/slide5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutsliders/index33/slide6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutus-slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutus-slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutus-slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutus-slide4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutus-slide5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/aboutus-slide6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/aboutme-header.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/aboutme-header2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/aboutus-header.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/aboutus-header2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/contactbg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/fun-factsbg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index12/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index12/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index25/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index26/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index27/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index29/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index29/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index30/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index30/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index31/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index31/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index32/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index33/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index33/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index35/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index4/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index4/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index4/bg3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index5/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index7/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index7/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index8/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index9/bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index9/bg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/index9/bg3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/knowledgebg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/loginbg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/page-header.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/page-header2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/shop-header.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/vertical-servicebg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/backgrounds/vertical-servicebg2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/big-banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/header-banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index25/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index25/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index25/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index27/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index27/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index27/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index27/banner4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index28/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index28/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/index28/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/widget-banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/banners/widget-banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/dean.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/eon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index21/post8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/carousel/post7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/index23/post9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/john.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/post1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/post2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/post3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/post4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/post5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/sarah.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/thumbnails/post1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/thumbnails/post2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/thumbnails/post3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/blog/thumbnails/post4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/boy1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/boy2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/boy3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/boy4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/browser-pack.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/browser.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/browser2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/browser3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/browser4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/c8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/clients/company9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/college.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/college.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/event8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/events/thumbnails/event9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/highschool.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homepages.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index10/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index10/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index10/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index11/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index11/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index11/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index12/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index12/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index12/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index12/slide4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index2/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index2/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index25/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index25/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index26/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index26/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index27/item1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index27/item2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index27/item3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index27/item4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index3/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index3/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index32/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index32/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index33/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index33/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index33/slide3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index34/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index34/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index5/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index5/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index6/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index6/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index7/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index7/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index8/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index8/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index9/slide1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/homesliders/index9/slide2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/icons/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/icons/faviconx57.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/icons/faviconx57@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/icons/faviconx72.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/icons/faviconx72@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/landing-mac.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/landing-phone.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/landing-phone2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/logo-gray.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/logo-gray@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/logo-white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/logo-white@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/logo@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mac-flat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mac-ss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mac-ss2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/bigplay.fw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/bigplay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/bigplay.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/controls.fw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/controls.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/controls.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mediaelement/skipback.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/mockups.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/newsletter-popupbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/newsletter-popupv2bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/office/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/overlay/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/overlay/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/overlay/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/overlay/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/overlay/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/overlay/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern10@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern11@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern12@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern13@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern14@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern15@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern16@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern17@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern18@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern19@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern20@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern21@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern22@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern23@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern24@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern25@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern26@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern27@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern28@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern29@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern30@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern4@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern5@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern6@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern7@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern8@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/patterns/pattern9@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/phone1-dark.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/phone1-light.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/phone2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/phone3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/phones.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/pin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/pin@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/aboutme/item9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/grid/item9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/masonry/item9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/project.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/project2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/portfolio/project3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product1-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product10-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product2-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product3-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product4-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product5-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product6-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product7-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product8-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product9-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/index25/product9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product1-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product10-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product2-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product3-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product4-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product5-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product6-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product7-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product8-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product9-hover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/product9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product1-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product1-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product2-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product2-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product3-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product3-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product4-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product4-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product5-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product5-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product6-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product6-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product7-big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product7-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/single/product7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/thumbs/product1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/products/thumbs/product2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrow_large_left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrow_large_right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrow_left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrow_left2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrow_right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrow_right2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrowleft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrowright.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/arrows.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/black50.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/boxed_bgtile.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/bullet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/bullet_boxed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/bullets.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/bullets.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/bullets2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/coloredbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/dummy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/grain.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/gridtile.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/gridtile_3x3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/gridtile_3x3_white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/gridtile_white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/large_left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/large_right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/loader2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/navigdots.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/navigdots_bgtile.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/shadow1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/shadow2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/shadow3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/small_arrows.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/small_left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/small_left_boxed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/small_right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/small_right_boxed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/timer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/timerdot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/transparent.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/transparent.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/revslider/white50.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/serviceimg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/serviceimg2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/barbara.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/barbara2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/blair.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/david.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/david2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/dean.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/eric.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/eric2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/jack.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/jane.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/jane2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/jessica.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/jessica2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/john.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/john2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/sarah.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/sarah2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/steve.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/team/steve2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/teampagebg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/testimonials/dean.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/testimonials/john.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/testimonials/sarah.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/world.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/images/world@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/bootstrap-datetimepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/bootstrap-datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/contact.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/isotope.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jflickrfeed.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.backstretch.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.bootstrap-touchspin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.bootstrap-touchspin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.countTo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.debouncedresize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.elevateZoom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.hoverIntent.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.infinitescroll.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.knob.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.knob.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.kwicks.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.lavalamp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.lavalamp.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.magnific-popup.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.magnific-popup.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.mb.YTPlayer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.nicescroll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.nicescroll.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.nouislider.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.selectbox.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.themepunch.revolution.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.themepunch.revolution.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.themepunch.tools.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.validate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.vmap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.vmap.sampledata.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/jquery.vmap.world.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/mediaelement-and-player.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/mediaelement-and-player.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/modernizr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/owl.carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/owl.carousel.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/queryloader2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/retina.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/skrollr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/skrollr.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/smoothscroll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/sticky.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/twitter/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/twitter/jquery.tweet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/twitter/jquery.tweet.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/twitter/lib/tmhOAuth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/twitter/lib/tmhUtilities.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/typed.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/typed.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/waypoints-sticky.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/waypoints-sticky.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/waypoints.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/waypoints.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/wow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/js/wow.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/media/audio.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/static/media/poster.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/din/templates/widgets/date_picker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/din/widgets.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/widgets/custom_text.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/widgets/location_widget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/widgets/preview_clearable_file_input.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/widgets/tuieditor_widget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/yolo/post_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/yolo/post_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/templates/yolo/principle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yolo/widgets.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" />
+      <change beforePath="$PROJECT_DIR$/din/admin.py" afterPath="$PROJECT_DIR$/din/admin.py" />
+      <change beforePath="$PROJECT_DIR$/din/forms.py" afterPath="$PROJECT_DIR$/din/forms.py" />
+      <change beforePath="$PROJECT_DIR$/din/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/din/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/din/models.py" afterPath="$PROJECT_DIR$/din/models.py" />
+      <change beforePath="$PROJECT_DIR$/din/templates/din/din.html" afterPath="$PROJECT_DIR$/din/templates/din/din.html" />
+      <change beforePath="$PROJECT_DIR$/din/templates/din/din_detail.html" afterPath="$PROJECT_DIR$/din/templates/din/din_detail.html" />
+      <change beforePath="$PROJECT_DIR$/din/templates/din/din_form.html" afterPath="$PROJECT_DIR$/din/templates/din/din_form.html" />
+      <change beforePath="$PROJECT_DIR$/din/templates/din/layout.html" afterPath="$PROJECT_DIR$/din/templates/din/layout.html" />
+      <change beforePath="$PROJECT_DIR$/din/urls.py" afterPath="$PROJECT_DIR$/din/urls.py" />
+      <change beforePath="$PROJECT_DIR$/din/views.py" afterPath="$PROJECT_DIR$/din/views.py" />
+      <change beforePath="$PROJECT_DIR$/yolo/admin.py" afterPath="$PROJECT_DIR$/yolo/admin.py" />
+      <change beforePath="$PROJECT_DIR$/yolo/forms.py" afterPath="$PROJECT_DIR$/yolo/forms.py" />
       <change beforePath="$PROJECT_DIR$/yolo/models.py" afterPath="$PROJECT_DIR$/yolo/models.py" />
-      <change beforePath="$PROJECT_DIR$/yolo/static/yolo/carousel.css" afterPath="$PROJECT_DIR$/yolo/static/yolo/carousel.css" />
-      <change beforePath="$PROJECT_DIR$/yolo/templates/yolo/tag_search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/yolo/templates/yolo/layout.html" afterPath="$PROJECT_DIR$/yolo/templates/yolo/layout.html" />
+      <change beforePath="$PROJECT_DIR$/yolo/templates/yolo/main_page.html" afterPath="$PROJECT_DIR$/yolo/templates/yolo/main_page.html" />
       <change beforePath="$PROJECT_DIR$/yolo/templates/yolo/yolo_detail.html" afterPath="$PROJECT_DIR$/yolo/templates/yolo/yolo_detail.html" />
+      <change beforePath="$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html" afterPath="$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html" />
       <change beforePath="$PROJECT_DIR$/yolo/templates/yolo/yolo_list.html" afterPath="$PROJECT_DIR$/yolo/templates/yolo/yolo_list.html" />
       <change beforePath="$PROJECT_DIR$/yolo/urls.py" afterPath="$PROJECT_DIR$/yolo/urls.py" />
       <change beforePath="$PROJECT_DIR$/yolo/views.py" afterPath="$PROJECT_DIR$/yolo/views.py" />
       <change beforePath="$PROJECT_DIR$/yolodin/settings.py" afterPath="$PROJECT_DIR$/yolodin/settings.py" />
       <change beforePath="$PROJECT_DIR$/yolodin/templates/layout.html" afterPath="$PROJECT_DIR$/yolodin/templates/layout.html" />
-      <change beforePath="$PROJECT_DIR$/yolodin/urls.py" afterPath="$PROJECT_DIR$/yolodin/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -650,104 +51,68 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56802064">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/yolo/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/yolo/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="492">
-                  <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/yolo/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
-                  <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#84#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/din/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="din_form.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/din/templates/din/din_form.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/yolodin/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/din/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="din_detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/din/templates/din/din_detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yolo/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widgets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yolo/widgets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1121">
+              <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yolo/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yolo/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yolo/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -758,12 +123,34 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>base_dir</find>
       <find>Pillow</find>
       <find>footer</find>
       <find>%Y</find>
       <find>authentication_ba</find>
       <find>myyolo</find>
+      <find>if</find>
+      <find>underline</find>
+      <find>categ</find>
+      <find>where</find>
+      <find>@{{ log.created_at }}</find>
+      <find>note</find>
+      <find>request.User</find>
+      <find>Din</find>
+      <find>style.css</find>
+      <find>bootstrap.min.css</find>
+      <find>style</find>
+      <find>determination</find>
+      <find>din.</find>
+      <find>(type='d').order_by(id).first()</find>
+      <find>&lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;&lt;a href=&quot;{% url &quot;din:din_detail&quot; id=din.what_id slug=u.username  %}&quot;&gt;View Detail ({{ din.log_set.count }})&lt;/a&gt;&lt;/button&gt;</find>
+      <find>type</find>
+      <find>settings</find>
+      <find>context_processors</find>
+      <find>calendar</find>
+      <find>fullcalendar</find>
+      <find>summernote</find>
+      <find>base_dir</find>
+      <find>google.maps.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -772,56 +159,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yolodin/static/carousel.css" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/layout.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/yolodin/wsgi.py" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/index.html" />
-        <option value="$PROJECT_DIR$/yolo/admin.py" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/main_page.html" />
-        <option value="$PROJECT_DIR$/accounts/models.py" />
-        <option value="$PROJECT_DIR$/accounts/admin.py" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/signup_form.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/accounts/forms.py" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/login_form.html" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/login.html" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/profile.html" />
-        <option value="$PROJECT_DIR$/yolo/forms.py" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/tag_search.html" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/ajax_search.html" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/category_search.html" />
-        <option value="$PROJECT_DIR$/yolo/views.py" />
-        <option value="$PROJECT_DIR$/myyolo/templates/myyolo/layout.html" />
-        <option value="$PROJECT_DIR$/yolo/static/yolo/carousel.css" />
-        <option value="$PROJECT_DIR$/myyolo/migrations/0003_auto_20180525_1731.py" />
-        <option value="$PROJECT_DIR$/myyolo/migrations/0003_auto_20180525_1736.py" />
-        <option value="$PROJECT_DIR$/myyolo/templates/myyolo/my_yolo.html" />
-        <option value="$PROJECT_DIR$/myyolo/admin.py" />
         <option value="$PROJECT_DIR$/myyolo/urls.py" />
         <option value="$PROJECT_DIR$/myyolo/templates/myyolo/myyolo_form.html" />
         <option value="$PROJECT_DIR$/myyolo/forms.py" />
         <option value="$PROJECT_DIR$/myyolo/views.py" />
-        <option value="$PROJECT_DIR$/yolodin/settings.py" />
-        <option value="$PROJECT_DIR$/din/admin.py" />
         <option value="$PROJECT_DIR$/din/apps.py" />
-        <option value="$PROJECT_DIR$/yolodin/templates/layout.html" />
-        <option value="$PROJECT_DIR$/din/forms.py" />
-        <option value="$PROJECT_DIR$/yolo/urls.py" />
-        <option value="$PROJECT_DIR$/yolodin/urls.py" />
-        <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_detail.html" />
-        <option value="$PROJECT_DIR$/din/urls.py" />
         <option value="$PROJECT_DIR$/myyolo/models.py" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/layout.html" />
+        <option value="$PROJECT_DIR$/din/admin.py" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_form_ex.html" />
+        <option value="$PROJECT_DIR$/din/templates/din/add_log_to_din.html" />
+        <option value="$PROJECT_DIR$/yolodin/static/css/style.css" />
+        <option value="$PROJECT_DIR$/din/templates/din/layout.html" />
         <option value="$PROJECT_DIR$/din/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/din/templates/din/din_detail.html" />
-        <option value="$PROJECT_DIR$/yolo/models.py" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/main_page.html" />
         <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_list.html" />
+        <option value="$PROJECT_DIR$/din/templates/din/din.html" />
+        <option value="$PROJECT_DIR$/din/urls.py" />
+        <option value="$PROJECT_DIR$/schedule/urls.py" />
+        <option value="$PROJECT_DIR$/schedule/models.py" />
+        <option value="$PROJECT_DIR$/schedule/models/__init__.py" />
+        <option value="$PROJECT_DIR$/schedule/models/rules.py" />
+        <option value="$PROJECT_DIR$/schedule/models/calendars.py" />
+        <option value="$PROJECT_DIR$/schedule/models/events.py" />
+        <option value="$PROJECT_DIR$/schedule/admin.py" />
+        <option value="$PROJECT_DIR$/schedule/forms.py" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html" />
         <option value="$PROJECT_DIR$/din/models.py" />
-        <option value="$PROJECT_DIR$/din/views.py" />
+        <option value="$PROJECT_DIR$/din/templates/din/din_detail.html" />
+        <option value="$PROJECT_DIR$/yolodin/urls.py" />
+        <option value="$PROJECT_DIR$/yolodin/templates/layout.html" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/principle.html" />
+        <option value="$PROJECT_DIR$/yolo/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/yolo/templates/widgets/custom_text.html" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/post_form.html" />
+        <option value="$PROJECT_DIR$/yolo/templates/widgets/tuieditor_widget.html" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/post_detail.html" />
+        <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_detail.html" />
         <option value="$PROJECT_DIR$/din/templates/din/din_form.html" />
+        <option value="$PROJECT_DIR$/din/widgets.py" />
+        <option value="$PROJECT_DIR$/din/templates/widgets/date_picker.html" />
+        <option value="$PROJECT_DIR$/yolo/views.py" />
+        <option value="$PROJECT_DIR$/din/forms.py" />
+        <option value="$PROJECT_DIR$/din/views.py" />
+        <option value="$PROJECT_DIR$/yolo/models.py" />
+        <option value="$PROJECT_DIR$/yolodin/settings.py" />
+        <option value="$PROJECT_DIR$/yolo/templates/widgets/location_widget.html" />
+        <option value="$PROJECT_DIR$/yolo/forms.py" />
+        <option value="$PROJECT_DIR$/yolo/widgets.py" />
+        <option value="$PROJECT_DIR$/yolo/admin.py" />
+        <option value="$PROJECT_DIR$/yolo/templates/widgets/preview_clearable_file_input.html" />
       </list>
     </option>
   </component>
@@ -831,14 +219,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="992" />
-    <option name="width" value="935" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="715" />
+    <option name="width" value="1212" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -852,6 +240,96 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="din" type="cbb8eebc:String" user="din" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="din" type="cbb8eebc:String" user="din" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="din" type="cbb8eebc:String" user="din" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="din" type="cbb8eebc:String" user="din" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="din" type="cbb8eebc:String" user="din" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="widgets" type="cbb8eebc:String" user="widgets" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="media" type="cbb8eebc:String" user="media" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="media" type="cbb8eebc:String" user="media" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="media" type="cbb8eebc:String" user="media" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="widgets" type="cbb8eebc:String" user="widgets" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="yolo" type="cbb8eebc:String" user="yolo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -867,25 +345,6 @@
             <path>
               <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolodin" type="462c0819:PsiDirectoryNode" />
-              <item name="din" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolodin" type="462c0819:PsiDirectoryNode" />
-              <item name="din" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolodin" type="462c0819:PsiDirectoryNode" />
-              <item name="din" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="din" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolodin" type="462c0819:PsiDirectoryNode" />
               <item name="yolo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -905,12 +364,6 @@
               <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolodin" type="462c0819:PsiDirectoryNode" />
               <item name="yolodin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolodin" type="462c0819:PsiDirectoryNode" />
-              <item name="yolodin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yolodin" type="b2602c69:ProjectViewProjectNode" />
@@ -922,7 +375,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -953,7 +405,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.yolo_list.html">
+    <configuration name="yolo_list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yolodin/yolo/templates/yolo/yolo_list.html" />
     <configuration name="yolodin" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -976,6 +429,15 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django server.yolodin" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.yolo_list.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.yolo_list.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -994,16 +456,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="715" y="0" width="1212" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22742476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1027,110 +489,65 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yolo/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/din/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/yolo/yolo/2018/04/21/KakaoTalk_20180324_143947066.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/static/yolo/selfdev_img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/yolo/yolo/2018/04/24/한강.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/static/yolo/earth.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/signup_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/forms.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/category_search.html" />
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/ajax_search.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/templates/din/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        <state relative-caret-position="38">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/migrations/0007_auto_20180704_1051.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule/urls.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/views.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/models.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/models/rules.py" />
+    <entry file="file://$PROJECT_DIR$/yolo/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule/apps.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/models/events.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/models/calendars.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/admin.py" />
+    <entry file="file://$PROJECT_DIR$/schedule/forms.py" />
+    <entry file="file://$PROJECT_DIR$/din/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,259 +558,343 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35028">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/static/yolo/carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myyolo/migrations/0003_auto_20180525_1731.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/main_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/templates/din/din.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/yolo_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/migrations/0003_auto_20180525_1736.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/migrations/0002_auto_20180522_2243.py">
+    <entry file="file://$PROJECT_DIR$/din/templates/din/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/migrations/0004_auto_20180531_1528.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/din/templates/din/din_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/din/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/urls.py">
+    <entry file="file://$PROJECT_DIR$/din/templates/din/din_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="140">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="86" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/models.py">
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/principle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="61" column="105" lean-forward="false" selection-start-line="61" selection-start-column="105" selection-end-line="61" selection-end-column="105" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#77#230#0#HTML" expanded="false" />
+            <element signature="e#806#1988#0#HTML" expanded="false" />
+            <element signature="e#1019#1074#0#HTML" expanded="false" />
+            <element signature="e#1570#1622#0#HTML" expanded="false" />
+            <element signature="e#2005#2889#0#HTML" expanded="false" />
+            <element signature="e#2218#2273#0#HTML" expanded="false" />
+            <element signature="e#2906#5041#0#HTML" expanded="false" />
+            <element signature="e#3119#3174#0#HTML" expanded="false" />
+            <element signature="e#5821#6573#0#HTML" expanded="false" />
+            <element signature="e#6034#6083#0#HTML" expanded="false" />
+            <element signature="e#6590#8020#0#HTML" expanded="false" />
+            <element signature="e#6803#6852#0#HTML" expanded="false" />
+            <element signature="e#7023#7048#0#HTML" expanded="false" />
+            <element signature="e#7180#7205#0#HTML" expanded="false" />
+            <element signature="e#7414#7439#0#HTML" expanded="false" />
+            <element signature="e#7624#7649#0#HTML" expanded="false" />
+            <element signature="e#8037#8888#0#HTML" expanded="false" />
+            <element signature="e#8250#8299#0#HTML" expanded="false" />
+            <element signature="e#8905#9618#0#HTML" expanded="false" />
+            <element signature="e#9118#9167#0#HTML" expanded="false" />
+            <element signature="e#9635#10739#0#HTML" expanded="false" />
+            <element signature="e#9751#10716#0#HTML" expanded="false" />
+            <element signature="e#9848#9897#0#HTML" expanded="false" />
+            <element signature="e#10268#10294#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/din/models.py">
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/yolo_form_ex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/yolo_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="62" column="93" lean-forward="false" selection-start-line="62" selection-start-column="93" selection-end-line="62" selection-end-column="93" />
+        <state relative-caret-position="-684">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/templates/din/din.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/widgets/custom_text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/yolo_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="172" column="14" lean-forward="true" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/post_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolodin/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/widgets/tuieditor_widget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/templates/widgets/date_picker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/yolo_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/yolo/post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/templates/din/din_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/din/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/templates/widgets/location_widget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolodin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="166" column="61" lean-forward="false" selection-start-line="166" selection-start-column="61" selection-end-line="166" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolodin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yolo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="760">
+          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/din/views.py">
+    <entry file="file://$PROJECT_DIR$/yolo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/din/templates/din/din_form.html">
+    <entry file="file://$PROJECT_DIR$/yolo/templates/widgets/preview_clearable_file_input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="437">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

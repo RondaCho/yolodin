@@ -1,0 +1,264 @@
+{% extends "yolo/layout.html" %}
+<!-- yolo/templates/yolo/yolo_form.html -->
+{% block style%}
+    <style>
+        .form_control {
+            padding: 0;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    {% load widget_tweaks %}
+    <div class="col-md-6 offset-md-3">
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+            {% for hidden_field in form.hidden_fields %}
+            {{ hidden_field }}
+            {% endfor %}
+
+        {% for field in form.visible_fields %}
+            <div class="form-group">
+                {{ field.label_tag }} {{ field }}
+                {% render_field field class="form-control" %}
+                {% if field.help_text %}
+                    <p class="help">{{ field.help_text }}</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    <input type="submit" />
+    </form>
+    </div>
+{% endblock %}
+
+
+
+
+
+-----------------------------------------------------------------------------------
+
+
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#e6e6e6, #ffc0d2);
+  font-family: "Raleway", sans-serif;
+}
+
+#main {
+  position: relative;
+  width: 600px;
+  height: 330px;
+  left: 30px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(23, 21, 25, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: white;
+}
+
+#left {
+  position: relative;
+  background: linear-gradient(135deg, rgba(81, 80, 84, 0.25) 0%, rgba(69, 69, 70, 0.5) 100%), url("{% if yolo.image %}{{ yolo.image.url }}{% else %}https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940{% endif %}");
+  background-size: cover;
+  background-position: center;
+  height: calc(100% + 50px);
+  width: 40%;
+  top: -35px;
+  left: -50px;
+  padding: 10px 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#left #head {
+  opacity: 0.95;
+}
+
+#right {
+  position: absolute;
+  width: calc(60% - 40px);
+  height: 100%;
+  top: 0;
+  left: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 20px;
+}
+
+#right form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+#right form input,
+#right form select {
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  appearance: none;
+  border: none;
+  border-bottom: 1.5px solid #c0cccc;
+  padding: 5px;
+  margin-top: 2.5px;
+  position: relative;
+}
+
+#right form .form-field {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 12.5px;
+}
+
+#right form #date-val {
+  display: flex;
+  justify-content: space-between;
+}
+
+#right form #date-val select {
+  width: 45%;
+}
+
+#right form button[type="submit"] {
+  background: linear-gradient(135deg, #c0cccc 0%, #e42e80 100%);
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+
+#right form button[type="submit"]:hover {
+  background: transparent;
+  box-shadow: 0 0 0 3px #e42e80;
+  color: #e42e80;
+}
+
+</style>
+
+{% load socialaccount %}
+
+{% csrf_token %}
+<main id="main">
+<form action="" method="post" enctype="multipart/form-data">
+	<section id="left">
+		<div id="head">
+
+            <p>You Only Live Once, Do It Now!</p>
+			<h1>
+                <div class="form-group">
+                <label for="id_what"><small>What:</small></label>
+                <input type="text" name="what" maxlength="100" class="form-control" required id="what_id"/>
+                </div>
+            </h1>
+            <div class="form-group">
+                <select name="category_set" class="form-control" id="id_category_set" multiple="multiple">
+                  <option value="1">Be</option>
+                  <option value="2">Travel</option>
+                  <option value="3">Have</option>
+                  <option value="4">Do</option>
+                  <option value="5">Create</option>
+                  <option value="6">Participate</option>
+                  <option value="7">Learn</option>
+                  <option value="8">Connect</option>
+                  <option value="9">Meet</option>
+                  <option value="10">Serve</option>
+                </select>
+            </div>
+        </div>
+		<h4 align="right">
+            {% if user.is_authenticated %}
+                {% for account in user.socialaccount_set.all %}
+                    {{ account.extra_data.name }}
+                    <img width="50" height="50" src="{{ account.get_avatar_url }}" style="margin-bottom:-25px; border-radius:50%;"/>
+                {% endfor %}
+            {% else %}
+                {{ request.user }}
+            {% endif %}
+        </h4>
+	</section>
+    <section id="right">
+        <button type="submit">Add a new list to the YOLODIN and fill my details</button>
+    </section>
+</form>
+</main>
+				<option value="2">02</option>
+							<option value="3">03</option>
+							<option value="4">04</option>
+							<option value="5">05</option>
+							<option value="6">06</option>
+							<option value="7">07</option>
+							<option value="8">08</option>
+							<option value="9">09</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+					</select>
+					<select name="when_year" id="expiry-year" required>
+							<option id="trans-label_year" value="2000" selected="selected">Year</option>
+							<option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                            <option value="2035">2035</option>
+                            <option value="2036">2036</option>
+                            <option value="2037">2037</option>
+                            <option value="2038">2038</option>
+                            <option value="2039">2039</option>
+                            <option value="2040">2040</option>
+                            <option value="2041">2041</option>
+                            <option value="2042">2042</option>
+                            <option value="2043">2043</option>
+                            <option value="2044">2044</option>
+                            <option value="2045">2045</option>
+                            <option value="2046">2046</option>
+                            <option value="2047">2047</option>
+                    </select>
+				</div>
+			</div>
+
+			<div id="form-determination" class="form-field">
+				<label for="id_determination">Thoughts:</label>
+                <textarea name="determination" cols="20" rows="3" placeholder="Put in your personal affirmations, plans and thoughts about this goal."></textarea>
+			</div>
+
+			<button type="submit">Add to My Yolodin List</button>
+		</form>
+	</section>
+</main>
+</form>
+
+
+
