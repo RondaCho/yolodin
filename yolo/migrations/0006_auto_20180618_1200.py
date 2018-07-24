@@ -12,10 +12,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RemoveField(
-            model_name='yolo',
-            name='tag_set',
-        ),
         migrations.DeleteModel(
             name='Tag',
         ),
