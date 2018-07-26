@@ -10,7 +10,7 @@ from imagekit.processors import Thumbnail
 
 
 def lnglat_validator(value):
-    if not re.match(r'^([+-]?\d+\.?\d*), ([+=]?\d+\.?\d*)$', value):
+    if not re.match(r'^([+-]?\d+\.?\d*), ([+-]?\d+\.?\d*)$', value):
         raise ValidationError('Invalid LngLat Type')
 
 
@@ -42,7 +42,7 @@ class Post(models.Model):
     what = models.ForeignKey(Yolo)
     author = models.ForeignKey(settings.AUTH_USER_MODEL)
     title = models.CharField(max_length=100)
-    latlng = models.CharField(max_length=50, blank=True, validators=[lnglat_validator])
+    latlng = models.CharField(max_length=50, blank=True)
     content = models.TextField() #textarea
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
