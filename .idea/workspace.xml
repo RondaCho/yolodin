@@ -6,12 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13dfbb54-dd7a-41f2-91be-27e59208880f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/templates/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yolodin/templates/500.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/yolo/views.py" afterPath="$PROJECT_DIR$/yolo/views.py" />
-      <change beforePath="$PROJECT_DIR$/yolodin/settings.py" afterPath="$PROJECT_DIR$/yolodin/settings.py" />
-      <change beforePath="$PROJECT_DIR$/yolodin/urls.py" afterPath="$PROJECT_DIR$/yolodin/urls.py" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,43 +48,19 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yolodin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="-1972">
               <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yolodin/templates/404.html">
+      <file leaf-file-name="prod.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reqs/prod.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="86" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="29" />
+            <state relative-caret-position="76">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yolo/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="500.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yolodin/templates/500.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myyolo/views.py" />
-        <option value="$PROJECT_DIR$/din/apps.py" />
-        <option value="$PROJECT_DIR$/myyolo/models.py" />
         <option value="$PROJECT_DIR$/yolo/templates/yolo/layout.html" />
         <option value="$PROJECT_DIR$/din/admin.py" />
         <option value="$PROJECT_DIR$/yolo/templates/yolo/yolo_form_ex.html" />
@@ -197,7 +166,6 @@
         <option value="$PROJECT_DIR$/yolo/widgets.py" />
         <option value="$PROJECT_DIR$/yolo/admin.py" />
         <option value="$PROJECT_DIR$/yolo/templates/widgets/preview_clearable_file_input.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/yolo/migrations/0006_auto_20180618_1200.py" />
         <option value="$PROJECT_DIR$/yolo/models.py" />
         <option value="$PROJECT_DIR$/yolodin/urls.py" />
@@ -205,6 +173,10 @@
         <option value="$PROJECT_DIR$/yolodin/templates/404.html" />
         <option value="$PROJECT_DIR$/yolodin/templates/500.html" />
         <option value="$PROJECT_DIR$/yolo/views.py" />
+        <option value="$PROJECT_DIR$/reqs/common.txt" />
+        <option value="$PROJECT_DIR$/reqs/dev.txt" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/reqs/prod.txt" />
       </list>
     </option>
   </component>
@@ -245,18 +217,7 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
-              <item name="yolo" type="cbb8eebc:String" user="yolo" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
-              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
-              <item name="yolodin" type="cbb8eebc:String" user="yolodin" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="reqs" type="cbb8eebc:String" user="reqs" />
             </path>
           </expand>
           <select />
@@ -426,9 +387,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/schedule/models/events.py" />
-    <entry file="file://$PROJECT_DIR$/schedule/models/calendars.py" />
-    <entry file="file://$PROJECT_DIR$/schedule/models/__init__.py" />
     <entry file="file://$PROJECT_DIR$/schedule/admin.py" />
     <entry file="file://$PROJECT_DIR$/schedule/forms.py" />
     <entry file="file://$PROJECT_DIR$/din/admin.py">
@@ -687,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yolo/migrations/0008_comment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,26 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yolodin/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2408">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolodin/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="86" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -856,11 +790,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yolo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="399">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolodin/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="86" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqs/dev.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqs/common.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolodin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1972">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqs/prod.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
