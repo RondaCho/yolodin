@@ -37,6 +37,7 @@ def principle(request):
     return render(request, 'yolo/principle.html')
 
 def yolo_list(request, slug=None):
+
     qs = Yolo.objects.all()
     category = Category.objects.all()
     q = request.GET.get('q', '')

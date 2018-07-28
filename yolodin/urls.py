@@ -17,10 +17,14 @@ from django.conf import settings
 from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib import admin
+from django.shortcuts import redirect
 
 urlpatterns = [
+
+    url(r'^$', lambda r: redirect('yolo:main_page'), name='root'),
+
     url(r'^admin/', admin.site.urls),
-    url(r'', include('yolo.urls', namespace='yolo')),
+    url(r'^yolo/', include('yolo.urls', namespace='yolo')),
     url(r'^din/', include('din.urls', namespace='din')),
     url(r'^accounts/', include('accounts.urls')),
     url(r'^accounts/', include('allauth.urls')),
